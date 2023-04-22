@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+  --background: #242133;
+  --button-color: #4f7dfd;
+}
+
+body {
+  background-color: var(--background);
+  color: #fff;
+  font-family: "Roboto";
+}
+.bg {
+  background: url(./img/background.png);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+}
+
+.navlists li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.btn {
+  margin-left: 5%;
+  background-color: var(--button-color);
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.section-1 {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 200px;
+  margin-top: auto;
+}
+
+.section-1 a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--button-color);
+  border: solid 2px var(--button-color);
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  width: 100px;
+  align-items: center;
+  text-align: center;
+}
+
+.section-1 .collectible {
+  color: var(--button-color);
+}
+
+.section-1 > section {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+}
+
+.section-1 > section:last-of-type {
+  align-items: center;
+}
+
+.section-1-image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.section-1-image-container .main-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 100px;
+}
+
+.love-container {
+  background-color: #fff;
+  width: 70px;
+  height: 30px;
+  position: absolute;
+  border-radius: 50px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.section-1 p:first-of-type {
+  font-size: 2rem;
+}
